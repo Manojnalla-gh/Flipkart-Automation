@@ -4,24 +4,21 @@ Automates the end-to-end user flow on Flipkart — from searching a product to i
 
 # Project Flow
 
-Launch Flipkart
-     ↓
+Launch Flipkart->
 Close Login Popup (ESC)
-     ↓
+     ->
 Search "mobile" → Apply Filter
-     ↓
+     ->
 Click Apple iPhone 17
-     ↓
+     ->
 Switch to New Tab (Multi-Window Handling)
-     ↓
+     ->
 Scroll to "Buy with EMI"
-     ↓
+     ->
 Click "Buy with EMI"
-     ↓
+     ->
 Enter Phone Number in Login Popup
 
-
----
 
 # Key Highlights
 
