@@ -28,7 +28,7 @@ Used `Keys.ESCAPE` on page load to automatically dismiss the Flipkart login popu
 # 2. Product Search & Filter
 Automated the search bar using `By.name("q")` and applied product filters using class-based locators.
 
-# 3. 🪟 Multi-Tab Handling
+# 3.  Multi-Tab Handling
 Flipkart opens the product page in a **new tab**. Handled this by:
 - Calling `getWindowHandles()` **after** the click to capture new tab handle
 - Using `switchTo().window(tabs.get(1))` to shift driver context to product page
@@ -71,12 +71,12 @@ Used `WebDriverWait` with `ExpectedConditions` throughout instead of fixed `Thre
 
 # Tech Stack
 
-| Tool | Version |
-| Java | JDK 24 |
-| Selenium WebDriver | 4.29.0 |
-| ChromeDriver | 145 |
-| Maven | 3.x |
-| IDE | IntelliJ IDEA |
+| Tool | Version 
+| Java | JDK 24 
+| Selenium WebDriver | 4.29.0 
+| ChromeDriver | 145 
+| Maven | 3.x 
+| IDE | IntelliJ IDEA 
 | OS | Windows 11 |
 
 # How to Run
