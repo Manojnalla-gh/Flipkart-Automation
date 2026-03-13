@@ -71,8 +71,8 @@ Used `WebDriverWait` with `ExpectedConditions` throughout instead of fixed `Thre
 
 # Tech Stack
 
-| Tool | Version 
-| Java | JDK 24 
+| Tool | Java 
+| Version | JDK 24 
 | Selenium WebDriver | 4.29.0 
 | ChromeDriver | 145 
 | Maven | 3.x 
