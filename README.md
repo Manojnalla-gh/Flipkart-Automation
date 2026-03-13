@@ -33,16 +33,10 @@ Flipkart opens the product page in a **new tab**. Handled this by:
 - Calling `getWindowHandles()` **after** the click to capture new tab handle
 - Using `switchTo().window(tabs.get(1))` to shift driver context to product page
 
-# java
-wait.until(ExpectedConditions.numberOfWindowsToBe(2));
-ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());
-driver.switchTo().window(tabs.get(1));
-
-
 # 4. JavaScript Executor for Scrolling
 Used `JavascriptExecutor` with `scrollIntoView()` to scroll precisely to the "Buy with EMI" element.
 
-# javaScript
+- javaScript
 JavascriptExecutor js = (JavascriptExecutor) driver;
 js.executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", element);
 
